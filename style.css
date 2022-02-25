@@ -1,0 +1,142 @@
+/* || General setup */
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 10px;
+  background-color: #000;
+}
+
+body {
+  width: 75%;
+  min-width: 800px;
+  margin: 0 auto;
+}
+
+/* || typography */
+
+h1, h2, h3 {
+  font-family: Verdana, Candara, sans-serif;
+  color: Orange;
+}
+
+p, input, li {
+  font-family: 'Roboto Condensed', sans-serif;
+  color: white;
+}
+
+h1 {
+  font-size: 6rem;
+  text-align: center;
+  text-shadow: 2px 2px 10px black;
+}
+
+h2 {
+  font-size: 3rem;
+  text-align: center;
+}
+
+h3 {
+  font-size: 2.2rem;
+}
+
+p, li {
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+/* || header layout */
+
+#header {
+  margin-bottom: 10px;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.bg > * {
+/* || 3. change bg color add padding add border radius for rounded corners */
+}
+
+h1 {
+  flex: 5;
+  text-transform: uppercase;
+}
+
+#header img {
+  display: block;
+  height: 95px;
+  padding-top: 25px;
+}
+
+#nav {
+  height: 50px;
+  flex: 100%;
+  display: flex;
+}
+
+#nav ul {
+  padding: 0;
+  list-style-type: none;
+  flex: 2;
+  display: flex;
+}
+
+#nav li {
+  display: inline;
+  text-align: center;
+  flex: 1;
+}
+
+#nav a {
+  display: inline-block;
+  font-size: 2rem;
+  height: 3rem;
+  line-height: 1.7;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+}
+
+#nav a:hover {
+/* || 1. on hover: increase font size, transform to lowercase, underline, and change color */
+}
+
+/* || main layout */
+
+.main {
+  display: flex;
+}
+
+.article, .section {
+  flex: 4;
+}
+
+.aside {
+  flex: 1;
+  margin-left: 10px;
+  padding: 1%;
+}
+
+.aside a {
+  display: block;
+  float: left;
+  width: 50%;
+}
+
+.aside img {
+  border: 1px solid #fff; 
+  border-radius: 4px;  /* Rounded border */
+  padding: 5px; 
+  width: 90px; 
+}
+
+.aside img:hover {
+  /* 2. change aside border color on hover */
+  }
+
+#footer {
+  margin-top: 10px;
+}
